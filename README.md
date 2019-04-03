@@ -1,24 +1,14 @@
-# README
+# What's For Dinner app (dinner for short)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Developed for my family's use to help with scheduling dinners and groceries.
+It is intended to make life easier to manage one of those things that everyone
+needs to do, eat dinner. The aim is to have this application make it easier to
+schedule meals that the family will like, coordinate grocery needs, and to save
+money by not eating out due to poor planning, (that gets expensive).
 
-Things you may want to cover:
+It is an ongoing development, but if it gets to the point where it would be useful
+generally, perhaps I'll put it out 'there'.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Written in:
+Ruby 2.6.1
+Rails 5.2.2
