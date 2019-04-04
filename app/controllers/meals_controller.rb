@@ -1,5 +1,6 @@
 class MealsController < ApplicationController
   def index
+    @meals = Meal.all
   end
 
   def show
@@ -10,4 +11,22 @@ class MealsController < ApplicationController
 
   def edit
   end
+
+  def create
+    
+  end
+
+  def update
+    
+  end
+
+  def destroy
+    
+  end
+
+  private
+
+    def meal_params
+      params.require(:meal).permit(:title)
+    end
 end
