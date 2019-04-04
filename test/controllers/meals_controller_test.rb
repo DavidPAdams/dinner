@@ -1,23 +1,33 @@
 require 'test_helper'
 
 class MealsControllerTest < ActionDispatch::IntegrationTest
+
+  def setup
+    @meal = meals(:one)
+  end
+
   test "should get index" do
-    get meals_index_url
+    get meals_url
     assert_response :success
   end
 
   test "should get show" do
-    get meals_show_url
+    get meal_url(@meal)
     assert_response :success
   end
 
   test "should get new" do
-    get meals_new_url
+    get new_meal_url
     assert_response :success
   end
 
   test "should get edit" do
-    get meals_edit_url
+    get edit_meal_url(@meal)
+    assert_response :success
+  end
+
+  test "should get root" do
+    get root_url
     assert_response :success
   end
 
