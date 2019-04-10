@@ -8,7 +8,7 @@ class MealsController < ApplicationController
   end
 
   def new
-    @meal = Meal.new(meal_params)
+    @meal = Meal.new
   end
 
   def edit
