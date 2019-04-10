@@ -11,4 +11,4 @@ generally, perhaps I'll put it out 'there'.
 
 Written in:
 Ruby 2.6.1
-Rails 5.2.2
+Rails 5.2.3
