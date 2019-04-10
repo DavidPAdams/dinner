@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+meals_array = ["Chilimac",
+              "Sloppy Joes",
+              "Hamburgers",
+              "Corn Chowder",
+              "Pork Chops",
+              "Chicken Broccoli Casserole",
+              "Lasagne",
+              "Pizza",
+              "Spaghetti"]
+
+meals_array.each do |dinner|
+  Meal.create!(title: dinner)
+end
