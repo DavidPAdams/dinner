@@ -12,18 +12,10 @@
   <% end %>
 
   <div class="form-group">
-    <%= form.hidden_field :user_id, value: current_user.id %>
+    <%= form.text_area :title, placeholder: "New Meal", class: "form-control" %>
   </div>
 
   <div class="form-group">
-    <%= form.text_area :note_entry, placeholder: "Something noteworthy...", class: "form-control" %>
-  </div>
-
-  <div class="form-group">
-    <%= form.hidden_field :story_id, value: @story.id %>
-  </div>
-
-  <div class="form-group">
-    <%= form.submit "Add note", class: "btn btn-primary btn-sm" %>
+    <%= form.submit "Save Meal", class: "btn btn-primary btn-sm" %>
   </div>
 <% end %>
